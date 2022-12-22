@@ -1,7 +1,14 @@
 # Forest
 forest management system based on a grid
 
-based on the task (in german language)
+task:
+OOP - Implement You can't see the forest for the trees if the trees in the forest are systematically lined up, because from any location the view of many trees is blocked. In a rectangular grid of a sanctuary, trees stand on all grid points, point-like, without extension. At Christmas time, by cutting some trees, the sparing was thinned out. The forester in charge of the spade keeps a record of the state of his spade in the office by means of a management program. The following activities are to be included in the program: � A tree is cut down. � A forest aisle (row or column of trees) is cut. Given the UML class diagram of a class Tree and a class Forest:
+
+Implement the two classes: a) Class Tree: Create the instance variable gefaellt, simulate the felling of a tree in the instance method faellen() and mark a felled and not felled tree differently in the toString method, for example with �o� and �x�. b) Class Forest: Create the forest as instance variable baeume. In doing so, introduce a necessary constructor to create the forest. Simulate the felling of a tree 1 or a tree slice in appropriate instance methods and enable a representation of the forest as a grid of felled or un-felled trees by overriding the toString method. In the example of a 7 � 9 sparing, all trees in the 4th row and the 5th column, as well as one tree in the 7th row in the 8th location, were cleared:
+
+(c) The forester was assigned a spruce sparing. In an already developed administration program WaldMain.java he can enter menu-driven changes within his sparing. This program can register the felling of trees or entire tree corridors and display the current state of a forest. Apply the classes you have developed together with the management program in a test to a 23 � 35 - sparing: � A tree had to be cut down because of a lightning strike. It was in the 13th row in the 19th position counted from the left. Every 10th tree column and 7th tree row was cut for fire protection. Every 3rd column and 3rd row were cut down as Christmas trees for thinning. � Using your program, generate the grid plot and transfer the current state of sparing to a WaldMain.out file. � Try to cut a tree outside the sparing, for example in the 24th row at the 18th position. How does the program react? Complete the classes with appropriate javadoc comments and create an online documentation for the whole project: javadoc -private -d WaldDoc *.java
+
+translated from the original task in german language:
 
 OOP - Implementieren
 Man sieht den Wald vor lauter Bäumen nicht, wenn die Bäume im Wald systematisch in Reihe
